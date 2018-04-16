@@ -1,0 +1,23 @@
+{
+  "name": "paulius/featured-products",
+  "description": "Magento task",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1",
+    "magento/framework": "100.0.*|100.1.*|100.2.*"
+  },
+  "repositories": {
+    "type": "composer",
+    "url": "https://repo.magento.com/"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Paulius\\FeaturedProducts\\": ""
+    }
+  }
+}
